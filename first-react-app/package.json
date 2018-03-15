@@ -1,0 +1,24 @@
+{
+  "name": "first-react-app",
+  "version": "1.0.0",
+  "description": "First React App. Building to learn thing. Assume it as Deprecated.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birlax/react-learning.git"
+  },
+  "keywords": [
+    "React",
+    "Learning",
+    "First App in React"
+  ],
+  "author": "Birlax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birlax/react-learning/issues"
+  },
+  "homepage": "https://github.com/birlax/react-learning#readme"
+}
