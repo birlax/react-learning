@@ -1,0 +1,19 @@
+#Install babel-cli to compile the react files to JSX
+
+npm install --save-dev babel-cli babel-preset-react
+
+# How to run the babel from CLI, Move this in your package.json as script, and use this with npm as "npm run <task-name>"
+# Installed babel as dev-dependency for now.
+
+./node_modules/.bin/babel --presets babel-preset-react src --out-file bundle.js
+
+# Add watch for auto build of babel
+"babel": "babel --presets babel-preset-react src --out-file bundle.js --watch"
+
+# Install live-server to auto reload the pages.
+
+npm install --save-dev live-server
+
+# Put the live-server in package.json script. Put a free port of your choice.
+
+"live-server": "live-server --port=3004"
