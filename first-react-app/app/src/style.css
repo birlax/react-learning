@@ -1,4 +1,17 @@
-.hello {
-  color: green;
+.cell {
+  color: black;
+  border-left-style : solid;
+  border-top-style : solid;
+  border-bottom-style : solid;
+  border-color:black;
+  text-align: justify;
+
 }
 
+.cell-last {
+  color: black;
+  border-left-style : solid;
+  border-top-style : solid;
+  border-bottom-style : solid;
+  border-right-style : solid;
+}

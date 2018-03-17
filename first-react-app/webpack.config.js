@@ -1,6 +1,6 @@
 module.exports = {
   entry: [
-    __dirname + '/app/src/index.js'
+    __dirname + '/app/src/app.js'
   ],
   module: {
     rules: [
