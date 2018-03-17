@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
- 
+import './style.css';
+
 class Hello extends React.Component {
   render() {
-    return <h2>Hdfdfdfddfgdfgdfgdgfello</h2>
+    return <h2 className="hello">Hdfdfdfddfgdfgdfgdgfello</h2>
   }
 }
  
