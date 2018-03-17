@@ -1,0 +1,89 @@
+.cell {
+  color: black;
+  border-left-style : solid;
+  border-top-style : solid;
+  border-bottom-style : solid;
+  text-align: justify;
+
+}
+
+.row {
+  color: black;
+  border-top: -1px;
+  border-right: -1px;
+}
+
+
+
+.column {
+  color: black;
+  border-top: -1px;
+  border-right: -1px;
+}
+
+.cell-last {
+  color: black;
+  border-left-style : solid;
+  border-top-style : solid;
+  border-bottom-style : solid;
+  border-right-style : solid;
+}
+
+.bgrid-view-port {
+  color: black;
+  border-style: solid;
+  width: 50%;
+  height: 300px;
+  display: block;
+  border-collapse: separate;
+}
+
+
+.bgrid{
+  color: black;
+  border-style: solid;
+  border-top: 0px;
+  border-right: 0px;
+  width: inherit;
+  height: 300px;
+  display: block;
+  overflow: auto;
+
+}
+
+.bgrid-header {
+  color: black;
+  border-style: solid;
+  border-top: -1px;
+  border-right: -1px;
+  background-color: #2196F3;
+  cursor: move;
+}
+
+.bgrid-filter {
+  color: black;
+  border-style: solid;
+  border-top: -1px;
+  border-right: -1px;
+  display: none;
+  background-color: #2196F3;
+}
+
+.bgrid-filter-hidden {
+  display: none;
+  background-color: lightgreen;
+}
+
+.bgrid-filter-show{
+  display: block;
+  background-color: lightgreen;
+}
+
+
+.bgrid-summary {
+  color: black;
+  border-style: solid;
+  border-top: -1px;
+  border-right: -1px;
+  background-color: lightpink;
+}

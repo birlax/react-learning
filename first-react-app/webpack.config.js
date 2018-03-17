@@ -1,6 +1,6 @@
 module.exports = {
   entry: [
-    __dirname + '/app/src/app.js'
+    __dirname + '/app/src/component/bGrid/app.js'
   ],
   module: {
     rules: [
@@ -14,7 +14,7 @@ module.exports = {
           'style-loader',
           'css-loader'
         ]
-      }	
+      }
     ]
   },
   output: {
@@ -22,6 +22,6 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    contentBase: __dirname + '/app/src/'
+    contentBase: __dirname + '/app/src'
   }
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style.css';
+import '../css/style.css';
 import Row from './bGridRow.js';
 
 class Grid extends React.Component {
@@ -8,19 +8,20 @@ class Grid extends React.Component {
  constructor(props) {
     super(props);
     this.state = {
+
     };
   }
 
-  renderRow(i){
+  renderRow(i,className){
 	  return (
-      <Row/>
+      <Row rowId={i} className={this.props.className}/>
     );
   }
 
-  renderRows(t){
+  renderRows(t,className){
     var a = [];
     for (var i = 0; i < t; i++) {
-      a.push(this.renderRow(i));
+      a.push(this.renderRow(i,className));
     }
     return a;
   }
@@ -29,10 +30,10 @@ class Grid extends React.Component {
   render() {
     return (
       <span>
-        <div>{this.renderRows(14)}</div>
+        <div className="bgrid">{this.renderRows(64,"row")}</div>
       </span>
     );
   }
 }
 
-ReactDOM.render(<Grid/>, document.getElementById('grid'));
+export default Grid;

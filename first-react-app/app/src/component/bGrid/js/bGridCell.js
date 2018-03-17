@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style.css';
+import '../css/style.css';
 
 class Cell extends React.Component {
   constructor(props) {
@@ -16,5 +16,5 @@ class Cell extends React.Component {
     );
   }
 }
- 
+
 export default Cell;

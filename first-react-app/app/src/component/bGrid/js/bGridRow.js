@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style.css';
+import '../css/style.css';
 import Cell from './bGridCell.js';
 
 class Row extends React.Component {
@@ -24,11 +24,9 @@ class Row extends React.Component {
   }
 
 
-
   render() {
     return ( <div>
-	    {this.renderCells(3,"cell")}
-	    {this.renderCells(1,"cell-last")}
+	    {this.renderCells(13,"cell column")}
 	    </div>
     );
   }
