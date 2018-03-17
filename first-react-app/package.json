@@ -4,7 +4,9 @@
   "description": "First React App. Building to learn thing. Assume it as Deprecated.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "babel": "babel --presets babel-preset-react app/src --out-dir target --watch",
+    "live-server": "live-server --port=3004",
+    "do": "babel live-server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,15 @@
   ],
   "author": "Birlax",
   "license": "ISC",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.0"
+  },
   "bugs": {
     "url": "https://github.com/birlax/react-learning/issues"
   },
